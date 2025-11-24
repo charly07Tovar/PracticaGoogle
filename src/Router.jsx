@@ -9,7 +9,7 @@ export default function Router() {
       <Route path="/login" element={<Login />} />
 
       <Route
-        path="/"
+        path="/home"
         element={
           <PrivateRoute>
             <Home />

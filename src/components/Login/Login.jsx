@@ -20,7 +20,7 @@ export default function Login() {
     };
 
     dispatch(login(user));
-    navigate("/", { replace: true });
+    navigate("/home", { replace: true });
   };
 
   return (
